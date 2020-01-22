@@ -290,7 +290,7 @@ enum RBACPermissions
     RBAC_PERM_COMMAND_GO_TAXINODE                            = 382,
     RBAC_PERM_COMMAND_GO_TICKET                              = 383, // deprecated since Draenor DON'T reuse
     RBAC_PERM_COMMAND_GO_TRIGGER                             = 384,
-    RBAC_PERM_COMMAND_GO_XYZ                                 = 385,
+    RBAC_PERM_COMMAND_GO_MOVE                                = 385,
     RBAC_PERM_COMMAND_GO_ZONEXY                              = 386,
     RBAC_PERM_COMMAND_GOBJECT                                = 387,
     RBAC_PERM_COMMAND_GOBJECT_ACTIVATE                       = 388,
@@ -783,6 +783,8 @@ enum RBACPermissions
     // custom permissions 1000+
     RBAC_PERM_COMMAND_GOBJECT_SET_SCALE                      = 1398,
     RBAC_PERM_COMMAND_NPC_SET_SCALE                          = 1589,
+	RBAC_PERM_COMMAND_NPC_SET_DEATHSTATE                     = 1590,
+	RBAC_PERM_COMMAND_MOVE		                             = 1591,
     RBAC_PERM_MAX
 };
 
