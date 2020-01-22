@@ -511,7 +511,7 @@ enum PlayerFieldKillsOffsets
 
 enum MirrorTimerType
 {
-    FATIGUE_TIMER      = 0,
+    FATIGUE_TIMER      = -1,
     BREATH_TIMER       = 1,
     FIRE_TIMER         = 2 // feign death
 };
